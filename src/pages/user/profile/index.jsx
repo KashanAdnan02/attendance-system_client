@@ -52,7 +52,7 @@ const profile = () => {
       setUpload(false);
       const formdata = new FormData();
       formdata.append("image", picture);
-      formdata.append("location", [location]);
+      formdata.append("location", location);
       formdata.append("name", profile?.name);
       formdata.append("roll_id", profile?.roll_id);
       console.log(formdata);
